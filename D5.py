@@ -1,6 +1,6 @@
-#check digit or not
+#check lower case or not
 ch=input("enter your own character:")
-if(ch>='0' and ch<='9'):
-    print("the given character ",ch,"is a digit")
+if(ch.islower()):
+    print("the given character",ch,"is a lowercase alphabet")
 else:
-    print("the given character ",ch,"is not a digit")
+    print("the given character",ch,"is not lowercase alphabet")
